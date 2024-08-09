@@ -20,3 +20,5 @@ Esta es una API RESTful para gestionar un catálogo de juegos de mesa. Permite l
 
 5. el servidor se ejecuta en  http://localhost:3000.
 
+6. los test se ejecutan con npx jest.
+
