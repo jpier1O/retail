@@ -146,7 +146,7 @@ const checkTrending = (game) => {
     } else if (game.category === 'culture' && game.name.split(' ').length > 2) {
       isTrending = true;
     } else if (game.category === 'strategy') {
-      const isRaining = true; // Simulación de condiciones meteorológicas
+      const isRaining = true;
       if (isRaining) {
         isTrending = true;
       }

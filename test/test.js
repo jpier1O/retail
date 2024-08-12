@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { app } from '../index.js'; // Ensure this path is correct for your project
+import { app } from '../index.js'; 
 
 describe('Board Game Catalog API', () => {
 
@@ -7,7 +7,7 @@ describe('Board Game Catalog API', () => {
     const res = await request(app).get('/games');
     expect(res.status).toBe(200);
     expect(res.body).toBeInstanceOf(Array);
-    expect(res.body.length).toBe(20); // Assuming there are 20 games in memory
+    expect(res.body.length).toBe(20); // Test asumiendo 20 juegos en memoria
   });
 
   it('Debería alquilar un juego', async () => {
